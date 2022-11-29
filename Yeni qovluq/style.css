@@ -13,7 +13,8 @@ header {
     align-items: center;
     padding: 20px 10%;
     background-color: #131313;
-    position: sticky;
+    position: justify;
+    
 }
 
 header img {
@@ -74,16 +75,58 @@ button a {
     font-family: "Ubuntu", sans-serif;
 }
 
-.hourofCode{
-    padding: 20px 10px;
+.webProject{
+    padding: 35px;
+    background-color: white;
+    height: 500px;
+    border-radius: 12px;
+    margin: 0 0 0 10px;
+}
+
+.webProject p{
+    text-align: justify;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.webProject p .main{
+    width: 200;
+}
+.context{
+    border: 5px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    background: white;
+}
+.context a[href*='hourofcode'], .context a[href*='aboutus']{
+    color: black;
+    text-decoration-line: underline;
+}
+.profile{
+    margin: 40px 60px;
+}
+a.profile{
+    padding: 12px 3px; 
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+a.profile:hover{
     background-color: black;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+.webProject h3{
+    text-align: center;
+    margin: 50px 0 0 0;
 }
 .aboutUs * {
     box-sizing: border-box;
 }
 
 .card-container {
-    flex: 200px;
+    flex: 500px;
     margin: 30px;
 }
 
@@ -124,7 +167,8 @@ button a {
 }
 
 .card-container .card a .card--display h2 {
-    margin: 20px 0 0;
+    margin: 50px 0 0;
+    text-align: center;
 }
 
 .card-container .card a .card--hover {
@@ -156,13 +200,4 @@ button a {
     z-index: -1;
 }
 
-.card-container .card.card--dark a {
-    color: white;
-    background-color: black;
-    border-color: black;
-}
-
-.card-container .card.card--dark a .card--hover .link {
-    color: #fde74c;
-}
 
