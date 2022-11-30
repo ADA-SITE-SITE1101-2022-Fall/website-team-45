@@ -14,7 +14,7 @@ header {
     padding: 20px 10%;
     background-color: #131313;
     position: justify;
-    
+
 }
 
 header img {
@@ -75,52 +75,6 @@ button a {
     font-family: "Ubuntu", sans-serif;
 }
 
-.webProject{
-    padding: 35px;
-    background-color: white;
-    height: 500px;
-    border-radius: 12px;
-    margin: 0 0 0 10px;
-}
-
-.webProject p{
-    text-align: justify;
-    color: black;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-}
-.webProject p .main{
-    width: 200;
-}
-.context{
-    border: 5px solid black;
-    border-radius: 12px;
-    padding: 20px;
-    background: white;
-}
-.context a[href*='hourofcode'], .context a[href*='aboutus']{
-    color: black;
-    text-decoration-line: underline;
-}
-.profile{
-    margin: 40px 60px;
-}
-a.profile{
-    padding: 12px 5px; 
-    border: 2px solid black;
-    border-radius: 5px;
-    color: black;
-    font-family: 'Nunito', sans-serif;
-}
-a.profile:hover{
-    background-color: black;
-    color: white;
-    transition: all 0.4s ease 0s;
-}
-.webProject h3{
-    text-align: center;
-    margin: 50px 0 0 0;
-}
 .aboutUs * {
     box-sizing: border-box;
 }
@@ -189,4 +143,124 @@ a.profile:hover{
     z-index: -1;
 }
 
+.webProject {
+    padding: 35px;
+    background-color: white;
+    height: 490px;
+    border-radius: 12px;
+    margin: 0 0 0 10px;
+}
 
+.webProject p {
+    text-align: justify;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.webProject p .main {
+    width: 200;
+}
+
+.context {
+    border: 5px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    background: white;
+}
+
+.context a[href*='hourofcode'],
+.context a[href*='aboutus'] {
+    color: black;
+    text-decoration-line: underline;
+}
+
+.profile {
+    margin: 40px 60px;
+}
+
+a.profile {
+    padding: 12px 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+a.profile:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+
+.webProject h3 {
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-family: 'Nunito', sans-serif;
+}
+.contenthoc, .images{
+    padding:0 20px;
+}
+.hourofCode{
+    height: 650px;
+}
+.hourofCode p{
+    color: white;
+    border-radius:12px;
+    padding: 20px;
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    width:300;
+}
+
+.img1, .img2, .img3, .img4{
+    width: 35%;
+    height: 230px;
+}
+.img1, .img3 {
+    padding-right: 10px;
+}
+
+.img1, .img2{
+    padding-bottom:10px;
+    padding-top: 13px;
+}
+
+.img3, .img4{
+    padding-bottom: 10px;
+}
+.images{
+    margin: 20px 10px;
+    background-color: black;
+    border-radius: 12px;
+}
+
+.thanks{
+    color: white;
+    position:relative;
+    left: 78%;
+    bottom: 322px;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 12px;
+    width:15%;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    width: 500;
+}
+footer.contact {
+    height:90px;
+    background-color: white;
+}
+footer.contact p {
+    color: black;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+footer.contact .contact_ {
+    
+    margin-left: 30px;
+}
